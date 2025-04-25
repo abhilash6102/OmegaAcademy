@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="courses.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Courses | Omega Academy</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/oit-logo.png"
+      sizes="25x25"
+    />
+  </head>
+  <body>
+    <!-- sub-navbar -->
+    <div class="subnav">
+      <div class="left">
+        <div class="phone">
+          <img src="images/phone.png" alt="" />
+          <p>+91-7845480510</p>
+        </div>
+        <div class="mail">
+          <img src="images/mail.png" alt="" />
+          <p>info@omegainfotech.in</p>
+        </div>
+      </div>
+      <div class="right">
+        <div id="register" class="register">
+          <img src="images/register.png" alt="" />
+          <p>Register</p>
+        </div>
+        <div id="login1" class="login1">
+          <img src="images/lock.png" alt="" />
+          <p>login</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- navbar -->
+    <div class="nav" id="nav">
+      <div class="logo">
+        <img src="images/oit-logo.png" alt="" />
+        <p>Omega Academy</p>
+      </div>
+      <div class="elements">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a class="active" href="courses.html">COURSES</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="user-container">
+        <a class="user-png" href="#"><img src="images/user.png" alt="" /></a>
+        <button class="btn1 nav-btn" id="btn1">JOIN NOW</button>
+        <div class="menu" id="menu">&#9776;</div>
+
+        <div class="side-menu" id="sideMenu">
+          <div class="close-menu" id="closeBtn">&times;</div>
+          <ul>
+            <li
+              style="
+                border-top: 1px solid rgba(227, 227, 227, 0.4);
+                padding-top: 10px;
+              "
+            >
+              <a href="index.html">HOME</a>
+            </li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a class="btn1">LOGIN</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="color"></div>
+    <button class="scroll-to-top" id="scrollBtn">↑</button>
+
+    <!-- background image -->
+    <div class="image">
+      <div class="info">
+        <h1>Courses</h1>
+        <div class="navigation">
+          <a href="index.html"><p>Home</p></a>
+          <img src="images/icons8-collapse-arrow-24.png" alt="" />
+          <p>Courses</p>
+        </div>
+      </div>
+      <div class="design">
+        <div class="design-gradient"></div>
+        <div class="gradient-design"></div>
+      </div>
+    </div>
+
+    <!-- courses -->
+    <div class="tab-container">
+      <div class="tab-buttons">
+        <button class="tab-button active" data-category="development">
+          Development
+        </button>
+        <button class="tab-button" data-category="data">Data</button>
+        <button class="tab-button" data-category="cloud">Cloud</button>
+        <button class="tab-button" data-category="security">Security</button>
+        <button class="tab-button" data-category="marketing">Marketing</button>
+      </div>
+
+      <div class="tab-content">
+        <div class="popular-courses" id="development">
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/java.jpg"
+              alt="Java Full Stack Development"
+            />
+            <div class="down">
+              <p class="start">Beginner</p>
+              <h2>Java Full Stack Development</h2>
+              <p>
+                Learn to build complete web applications using Java technologies
+                across the front-end and back-end.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>6weeks</p>
+                </div>
+                <div class="know">
+                  <a href="description.html">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/python.jpg"
+              alt="Programming with Python"
+            />
+            <div class="down">
+              <p class="start">Beginner</p>
+              <h2>Programming with Python</h2>
+              <p>
+                Master Python programming for software development, automation,
+                and data manipulation.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>6weeks</p>
+                </div>
+                <div class="know">
+                  <a href="">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/android.jpg"
+              alt="Android Development"
+            />
+            <div class="down">
+              <p class="start">Beginner</p>
+              <h2>Android Development</h2>
+              <p>
+                Gain the skills to build and develop native mobile applications
+                for Android devices.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>6weeks</p>
+                </div>
+                <div class="know">
+                  <a href="">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/full stack.jpg"
+              alt="Full Stack Web Development"
+            />
+            <div class="down">
+              <p class="start">Beginner</p>
+              <h2>Full Stack Web Development</h2>
+              <p>
+                Learn to create dynamic, responsive websites using modern
+                technologies and frameworks.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>6weeks</p>
+                </div>
+                <div class="know">
+                  <a href="">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img class="c-img" src="images/ux-ui-00.png" alt="UI/UX Design" />
+            <div class="down">
+              <p class="start">Beginner</p>
+              <h2>UI/UX Design</h2>
+              <p>
+                Understand design principles for intuitive, engaging, and
+                user-friendly digital products.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>6weeks</p>
+                </div>
+                <div class="know">
+                  <a href="">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular-courses hidden" id="data">
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/deep learning.png"
+              alt="Deep Learning"
+            />
+            <div class="down">
+              <p class="start">Advanced</p>
+              <h2>Deep Learning</h2>
+              <p>
+                Explore neural networks to solve advanced problems in artificial
+                intelligence systems.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.6/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>10 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/data science.png"
+              alt="Deep Learning"
+            />
+            <div class="down">
+              <p class="start">Advanced</p>
+              <h2>Data Science</h2>
+              <p>
+                Analyze data using statistical, machine learning, and
+                computational techniques for insights.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.6/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>10 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/data analytics.jpg"
+              alt="Deep Learning"
+            />
+            <div class="down">
+              <p class="start">Advanced</p>
+              <h2>Data Analytics</h2>
+              <p>
+                Learn to interpret, visualize, and present data for informed
+                business decisions.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.6/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>10 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/machine learning.jpg"
+              alt="Deep Learning"
+            />
+            <div class="down">
+              <p class="start">Advanced</p>
+              <h2>Machine Learning</h2>
+              <p>
+                Build predictive models using machine learning algorithms and
+                real-world data sets.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.6/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>10 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img class="c-img" src="images/ai.png" alt="Deep Learning" />
+            <div class="down">
+              <p class="start">Advanced</p>
+              <h2>Artificial Intelligence</h2>
+              <p>
+                Study AI fundamentals including robotics, automation, and
+                natural language processing systems.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.6/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>10 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular-courses hidden" id="cloud">
+          <div class="course1">
+            <img class="c-img" src="images/aws.png" alt="AWS" />
+            <div class="down">
+              <p class="start">Intermediate</p>
+              <h2>Amazon Web Services</h2>
+              <p>
+                Gain experience with AWS cloud services for deployment and
+                scalability.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.3/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>7 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img class="c-img" src="images/Cloud Computing.png" alt="AWS" />
+            <div class="down">
+              <p class="start">Intermediate</p>
+              <h2>Cloud Computing</h2>
+              <p>
+                Understand cloud infrastructure and deployment for scalable,
+                on-demand applications and services.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.3/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>7 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img class="c-img" src="images/devops.jpg" alt="AWS" />
+            <div class="down">
+              <p class="start">Intermediate</p>
+              <h2>Devops</h2>
+              <p>
+                Automate software development, integration, testing, and
+                deployment with DevOps tools and practices.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.3/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>7 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular-courses hidden" id="security">
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/cyber security.jpg"
+              alt="Cyber Security"
+            />
+            <div class="down">
+              <p class="start">Advanced</p>
+              <h2>Cyber Security</h2>
+              <p>
+                Develop skills to protect systems, networks, and data from cyber
+                threats and vulnerabilities.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.5/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>8 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="course1">
+            <img class="c-img" src="images/dbms.jpg" alt="Cyber Security" />
+            <div class="down">
+              <p class="start">Advanced</p>
+              <h2>DBMS</h2>
+              <p>
+                Manage and secure relational and non-relational databases
+                effectively for applications.
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.5/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>8 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular-courses hidden" id="marketing">
+          <div class="course1">
+            <img
+              class="c-img"
+              src="images/digital marketing.png"
+              alt="Digital Marketing"
+            />
+            <div class="down">
+              <p class="start">Beginner</p>
+              <h2>Digital Marketing</h2>
+              <p>
+                Explore online marketing techniques like SEO, content marketing,
+                and social media to promote online
+              </p>
+              <div class="ranking">
+                <img src="images/graph.png" alt="Ranking" />
+                <p>4.1/5</p>
+              </div>
+              <div class="underline"></div>
+              <div class="end">
+                <div class="time">
+                  <img src="images/icons8-time-48.png" alt="Duration" />
+                  <p>5 weeks</p>
+                </div>
+                <div class="know">
+                  <a href="#">Know More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="next-tab">
+        <div class="tabs"><<</div>
+        <div class="tabs active">1</div>
+        <div class="tabs">2</div>
+        <div class="tabs">..</div>
+        <div class="tabs">5</div>
+        <div class="tabs">>></div>
+      </div>
+    </div>
+
+    <!-- newsletter -->
+    <div class="newsletter">
+      <h1>Subscribe our <span style="font-style: italic">Newsletter</span></h1>
+      <h3>
+        A diverse range of courses tailored to meet your unique learning needs.
+      </h3>
+      <h3 style="margin-bottom: 7vh">
+        Discover a World of Learning on One Platform!
+      </h3>
+      <div class="subscribe">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your Email"
+          class="form"
+          required
+        />
+        <button class="btn6">Subscribe</button>
+      </div>
+      <img src="images/newsletter.png" alt="" />
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="rotated">
+        <div class="rotated-left">
+          <div class="rotated-gradient"></div>
+          <div class="gradient-line"></div>
+        </div>
+        <div class="rotated-right">
+          <div class="rotated-gradient-r"></div>
+          <div class="gradient-line-r"></div>
+        </div>
+      </div>
+
+      <div class="footer-sections">
+        <div class="footer-p">
+          <div class="footer-logo">
+            <img src="images/oit-logo.png" alt="" />
+            <p>Omega Academy</p>
+          </div>
+          <p>
+            Gateway to acquire valuable skills and knowledge, empowering them to
+            thrive in a dynamic digital landscape and advance their careers.
+          </p>
+          <div class="links">
+            <div class="fb">
+              <button>
+                <img src="images/icons8-facebook-24.png" alt="" />
+              </button>
+            </div>
+            <div class="insta">
+              <button>
+                <img src="images/icons8-instagram-logo-24.png" alt="" />
+              </button>
+            </div>
+            <div class="linked">
+              <button>
+                <img src="images/icons8-linkedin-2-24.png" alt="" />
+              </button>
+            </div>
+            <div class="twitter">
+              <button>
+                <img src="images/icons8-twitter-bird-24.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="quick-link">
+          <p>Quick Links</p>
+          <div class="link">
+            <img
+              class="white"
+              src="images/icons8-collapse-arrow-24.png"
+              alt=""
+            />
+            <img
+              class="red"
+              src="images/icons8-collapse-arrow-24-red.png"
+              alt=""
+            />
+            <p>About</p>
+          </div>
+          <div class="link">
+            <img
+              class="white"
+              src="images/icons8-collapse-arrow-24.png"
+              alt=""
+            />
+            <img
+              class="red"
+              src="images/icons8-collapse-arrow-24-red.png"
+              alt=""
+            />
+            <p>Contact</p>
+          </div>
+          <div class="link">
+            <img
+              class="white"
+              src="images/icons8-collapse-arrow-24.png"
+              alt=""
+            />
+            <img
+              class="red"
+              src="images/icons8-collapse-arrow-24-red.png"
+              alt=""
+            />
+            <p>Privacy Policy</p>
+          </div>
+          <div class="link">
+            <img
+              class="white"
+              src="images/icons8-collapse-arrow-24.png"
+              alt=""
+            />
+            <img
+              class="red"
+              src="images/icons8-collapse-arrow-24-red.png"
+              alt=""
+            />
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="link">
+            <img
+              class="white"
+              src="images/icons8-collapse-arrow-24.png"
+              alt=""
+            />
+            <img
+              class="red"
+              src="images/icons8-collapse-arrow-24-red.png"
+              alt=""
+            />
+            <p>FAQs & Help</p>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <p>Contact Us</p>
+          <div class="location">Hyderabad, India</div>
+          <div class="timing">
+            <div class="hours">
+              <img src="images/icons8-time-50.png" alt="" />
+              <div class="opening">
+                <p>Opening Hours:</p>
+                <p>Mon - Sat: 10.00 AM - 4.00 PM</p>
+              </div>
+            </div>
+            <div class="hours">
+              <img src="images/icons8-phone-50 (1).png" alt="" />
+              <div class="opening">
+                <p>Phone Call:</p>
+                <p>+91-7845480510</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="white-line"></div>
+        <p>© Copyright 2019 Omega InfoTech. All rights reserved.</p>
+      </div>
+    </div>
+
+    <!-- registration -->
+    <div class="container" id="container">
+      <!-- sign-in page -->
+      <div class="login-box">
+        <div class="logins">
+          <i class="remove" style="color: black">&times;</i>
+          <h1>Sign In</h1>
+          <form action="">
+            <div class="email">
+              <p>Email</p>
+              <input
+                type="email"
+                id="email"
+                value=""
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="password">
+              <p>Password</p>
+              <input
+                type="password"
+                id="password"
+                value=""
+                placeholder="Enter your Password"
+                required
+              />
+            </div>
+            <div class="rem-forgot">
+              <div class="remember">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe" />
+                <label for="rememberMe" class="p">Remember me</label>
+              </div>
+              <div class="forgot">
+                <a class="a" href="#">Forget Password?</a>
+              </div>
+            </div>
+            <div class="submit">
+              <button class="btn">Sign In</button>
+            </div>
+          </form>
+          <div class="lines">
+            <div class="line"></div>
+            <div class="or">OR</div>
+            <div class="line"></div>
+          </div>
+          <div class="google">
+            <button id="google" class="btn">
+              <img src="images/icons8-google-48.png" alt="" />
+              <p>Continue with Google</p>
+            </button>
+          </div>
+          <div class="facebook" class="btn">
+            <button id="facebook">
+              <img src="images/icons8-facebook-48.png" alt="" />
+              <p>Continue with Facebook</p>
+            </button>
+          </div>
+          <div class="no-account">
+            <p>Don't have an Account?</p>
+            <p class="register" id="signup">Sign Up</p>
+          </div>
+        </div>
+      </div>
+      <div class="wallpaper">
+        <img src="images/logo.png" alt="" />
+      </div>
+
+      <!-- sign-Up page -->
+      <div class="signup-box">
+        <div class="signup">
+          <i class="remove r1" style="color: black">&times;</i>
+          <h1>Create an Account</h1>
+          <form action="">
+            <div class="email">
+              <p>Email</p>
+              <input
+                type="email"
+                id="email"
+                value=""
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="password">
+              <p>Password</p>
+              <input
+                type="password"
+                id="password"
+                value=""
+                placeholder="Enter your Password"
+                required
+              />
+            </div>
+            <div class="password">
+              <p>Confirm Password</p>
+              <input
+                type="password"
+                id="password"
+                value=""
+                placeholder="Enter your Password"
+                required
+              />
+            </div>
+            <div class="submit">
+              <button class="btn">Sign Up</button>
+            </div>
+          </form>
+          <div class="lines">
+            <div class="line"></div>
+            <div class="or">OR</div>
+            <div class="line"></div>
+          </div>
+          <div class="google">
+            <button id="google" class="btn">
+              <img src="images/icons8-google-48.png" alt="" />
+              <p>Continue with Google</p>
+            </button>
+          </div>
+          <div class="facebook" class="btn">
+            <button id="facebook">
+              <img src="images/icons8-facebook-48.png" alt="" />
+              <p>Continue with Facebook</p>
+            </button>
+          </div>
+          <div class="no-account">
+            <p>Already have an Account?</p>
+            <p class="register" id="signin">Sign In</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
