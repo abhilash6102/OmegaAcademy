@@ -153,7 +153,7 @@
 /* flexible & responsive */
 @media only screen and (max-width: 500px) {
   .remove {
-    top: 30px;
+    top: 7px;
   }
   .tab-buttons {
     justify-content: flex-start;

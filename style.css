@@ -814,8 +814,8 @@ input[type="checkbox"] {
     box-shadow: none;
     position: absolute;
     left: -20vw;
-    padding-bottom: 150px;
-    padding-top: 150px;
+    padding-bottom: 170px;
+    padding-top: 172px;
   }
   .signup-box {
     width: 100vw;
@@ -823,8 +823,8 @@ input[type="checkbox"] {
     box-shadow: none;
     position: absolute;
     left: -20vw;
-    padding-bottom: 150px;
-    padding-top: 110px;
+    padding-bottom: 170px;
+    padding-top: 125px;
   }
   .logins {
     margin: 30px;
@@ -896,6 +896,7 @@ input[type="checkbox"] {
   .scroll-to-top {
     right: 6vw;
     bottom: 2vh;
+    font-size: 30px;
   }
   .elements {
     display: none;

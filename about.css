@@ -309,7 +309,7 @@
 /* flexible & responsive */
 @media only screen and (max-width: 700px) {
   .remove {
-    top: 30px;
+    top: 7px;
   }
   /* vision */
   .vision {
@@ -445,6 +445,6 @@
   .circle-s {
     width: 12vw;
     height: 6vh;
-    font-size: 20px;
+    font-size: 30px;
   }
 }
